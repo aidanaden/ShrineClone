@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0974E5255140EAFA3B2A622E /* Pods_ShrineClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E861C0DC2B3720E115DCDC /* Pods_ShrineClone.framework */; };
 		30C4CC9E1F41A13F001F467E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CC9D1F41A13F001F467E /* AppDelegate.swift */; };
-		30C4CCA01F41A13F001F467E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CC9F1F41A13F001F467E /* ViewController.swift */; };
-		30C4CCA31F41A13F001F467E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C4CCA11F41A13F001F467E /* Main.storyboard */; };
+		30C4CCA01F41A13F001F467E /* ShrineFlexibleHeaderContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CC9F1F41A13F001F467E /* ShrineFlexibleHeaderContainerViewController.swift */; };
 		30C4CCA51F41A13F001F467E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C4CCA41F41A13F001F467E /* Assets.xcassets */; };
 		30C4CCA81F41A13F001F467E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C4CCA61F41A13F001F467E /* LaunchScreen.storyboard */; };
+		30C4CCB01F41A3BF001F467E /* ShrineCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CCAF1F41A3BF001F467E /* ShrineCollectionViewController.swift */; };
+		30C4CCB21F41A4AB001F467E /* ShrineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CCB11F41A4AB001F467E /* ShrineData.swift */; };
+		30C4CCB41F41A500001F467E /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 30C4CCB31F41A500001F467E /* products.json */; };
+		30C4CCB71F41A803001F467E /* ShrineHeaderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CCB61F41A803001F467E /* ShrineHeaderContentView.swift */; };
+		30C4CCB91F41AD7D001F467E /* ShrineHeaderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CCB81F41AD7D001F467E /* ShrineHeaderPage.swift */; };
+		30C4CCBB1F41AE96001F467E /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30C4CCBA1F41AE96001F467E /* AbrilFatface-Regular.ttf */; };
+		30C4CCBD1F41B296001F467E /* ShrineInkOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CCBC1F41B296001F467E /* ShrineInkOverlay.swift */; };
+		30C4CCBF1F41BFB9001F467E /* ShrineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CCBE1F41BFB9001F467E /* ShrineCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30C4CC9A1F41A13F001F467E /* ShrineClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShrineClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C4CC9D1F41A13F001F467E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30C4CC9F1F41A13F001F467E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30C4CCA21F41A13F001F467E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30C4CC9F1F41A13F001F467E /* ShrineFlexibleHeaderContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrineFlexibleHeaderContainerViewController.swift; sourceTree = "<group>"; };
 		30C4CCA41F41A13F001F467E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30C4CCA71F41A13F001F467E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30C4CCA91F41A13F001F467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C4CCAF1F41A3BF001F467E /* ShrineCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShrineCollectionViewController.swift; sourceTree = "<group>"; };
+		30C4CCB11F41A4AB001F467E /* ShrineData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShrineData.swift; sourceTree = "<group>"; };
+		30C4CCB31F41A500001F467E /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = products.json; path = ShrineClone/products.json; sourceTree = "<group>"; };
+		30C4CCB61F41A803001F467E /* ShrineHeaderContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShrineHeaderContentView.swift; sourceTree = "<group>"; };
+		30C4CCB81F41AD7D001F467E /* ShrineHeaderPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShrineHeaderPage.swift; sourceTree = "<group>"; };
+		30C4CCBA1F41AE96001F467E /* AbrilFatface-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbrilFatface-Regular.ttf"; sourceTree = "<group>"; };
+		30C4CCBC1F41B296001F467E /* ShrineInkOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShrineInkOverlay.swift; sourceTree = "<group>"; };
+		30C4CCBE1F41BFB9001F467E /* ShrineCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShrineCollectionViewCell.swift; sourceTree = "<group>"; };
+		84644FEA662B53A71E99218B /* Pods-ShrineClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShrineClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShrineClone/Pods-ShrineClone.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E861C0DC2B3720E115DCDC /* Pods_ShrineClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShrineClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C4D4706DFA91B5019A2B54 /* Pods-ShrineClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShrineClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShrineClone/Pods-ShrineClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0974E5255140EAFA3B2A622E /* Pods_ShrineClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +57,11 @@
 		30C4CC911F41A13F001F467E = {
 			isa = PBXGroup;
 			children = (
+				30C4CCB51F41A503001F467E /* Resources */,
 				30C4CC9C1F41A13F001F467E /* ShrineClone */,
 				30C4CC9B1F41A13F001F467E /* Products */,
+				94598DB1A443EBC4BEA85A29 /* Pods */,
+				D99583AB3ACBD21E43BD5542 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +77,44 @@
 			isa = PBXGroup;
 			children = (
 				30C4CC9D1F41A13F001F467E /* AppDelegate.swift */,
-				30C4CC9F1F41A13F001F467E /* ViewController.swift */,
-				30C4CCA11F41A13F001F467E /* Main.storyboard */,
+				30C4CC9F1F41A13F001F467E /* ShrineFlexibleHeaderContainerViewController.swift */,
+				30C4CCBE1F41BFB9001F467E /* ShrineCollectionViewCell.swift */,
+				30C4CCAF1F41A3BF001F467E /* ShrineCollectionViewController.swift */,
+				30C4CCB61F41A803001F467E /* ShrineHeaderContentView.swift */,
+				30C4CCB11F41A4AB001F467E /* ShrineData.swift */,
+				30C4CCB81F41AD7D001F467E /* ShrineHeaderPage.swift */,
+				30C4CCBC1F41B296001F467E /* ShrineInkOverlay.swift */,
 				30C4CCA41F41A13F001F467E /* Assets.xcassets */,
 				30C4CCA61F41A13F001F467E /* LaunchScreen.storyboard */,
 				30C4CCA91F41A13F001F467E /* Info.plist */,
 			);
 			path = ShrineClone;
+			sourceTree = "<group>";
+		};
+		30C4CCB51F41A503001F467E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30C4CCBA1F41AE96001F467E /* AbrilFatface-Regular.ttf */,
+				30C4CCB31F41A500001F467E /* products.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		94598DB1A443EBC4BEA85A29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84644FEA662B53A71E99218B /* Pods-ShrineClone.debug.xcconfig */,
+				E9C4D4706DFA91B5019A2B54 /* Pods-ShrineClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D99583AB3ACBD21E43BD5542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E861C0DC2B3720E115DCDC /* Pods_ShrineClone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30C4CCAC1F41A13F001F467E /* Build configuration list for PBXNativeTarget "ShrineClone" */;
 			buildPhases = (
+				5938BEDE03B528A1151FE7D9 /* [CP] Check Pods Manifest.lock */,
 				30C4CC961F41A13F001F467E /* Sources */,
 				30C4CC971F41A13F001F467E /* Frameworks */,
 				30C4CC981F41A13F001F467E /* Resources */,
+				17FD5301DEE1ACBFECB31D60 /* [CP] Embed Pods Frameworks */,
+				7C5E1CB0ACF8D433DDD3432A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +180,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C4CCB41F41A500001F467E /* products.json in Resources */,
 				30C4CCA81F41A13F001F467E /* LaunchScreen.storyboard in Resources */,
 				30C4CCA51F41A13F001F467E /* Assets.xcassets in Resources */,
-				30C4CCA31F41A13F001F467E /* Main.storyboard in Resources */,
+				30C4CCBB1F41AE96001F467E /* AbrilFatface-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17FD5301DEE1ACBFECB31D60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShrineClone/Pods-ShrineClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5938BEDE03B528A1151FE7D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5E1CB0ACF8D433DDD3432A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShrineClone/Pods-ShrineClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30C4CC961F41A13F001F467E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30C4CCA01F41A13F001F467E /* ViewController.swift in Sources */,
+				30C4CCB01F41A3BF001F467E /* ShrineCollectionViewController.swift in Sources */,
+				30C4CCBF1F41BFB9001F467E /* ShrineCollectionViewCell.swift in Sources */,
+				30C4CCB71F41A803001F467E /* ShrineHeaderContentView.swift in Sources */,
+				30C4CCB91F41AD7D001F467E /* ShrineHeaderPage.swift in Sources */,
+				30C4CCA01F41A13F001F467E /* ShrineFlexibleHeaderContainerViewController.swift in Sources */,
+				30C4CCBD1F41B296001F467E /* ShrineInkOverlay.swift in Sources */,
+				30C4CCB21F41A4AB001F467E /* ShrineData.swift in Sources */,
 				30C4CC9E1F41A13F001F467E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +256,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30C4CCA11F41A13F001F467E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30C4CCA21F41A13F001F467E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30C4CCA61F41A13F001F467E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,6 +362,7 @@
 		};
 		30C4CCAD1F41A13F001F467E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84644FEA662B53A71E99218B /* Pods-ShrineClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T8EK39XC68;
@@ -272,6 +376,7 @@
 		};
 		30C4CCAE1F41A13F001F467E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C4D4706DFA91B5019A2B54 /* Pods-ShrineClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T8EK39XC68;
@@ -302,6 +407,7 @@
 				30C4CCAE1F41A13F001F467E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
